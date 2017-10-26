@@ -11,7 +11,7 @@ port java.util.*;
 public class Playoffs {
 	public static void main(String args[]) {
 		
-		final Scanner OUTPUT = new Scanner(System.in);
+		final canner OUTPUT = new Scanner(System);
 		
 		System.out.println("Lab 6 written by Kerzell Ramos.\n");
 		
@@ -77,7 +77,7 @@ public class Playoffs {
 		int teamOne = 0;
 		int teamTwo = 0;
 		
-		while((teamOne < 4) && (teamTwo < 4)) {
+		while(teamOne < 4) && (teamTwo < 4)) {
 			if(percentTeamOneWin > (1 + k.nextInt(100))) { //k creates a random integer variable from 0 to 99, excluding 100.
 				teamOne++;
 			}else {
